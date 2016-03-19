@@ -1,0 +1,117 @@
+/*-----------------------------
+			CAR RACE 2.0
+-----------------------------*/
+
+#race{
+	background-color: azure;
+	text-align: center;
+	align-items: center;
+	font-family: fantasy;
+	font-style: normal;
+	font-size: 30px;
+	color:cornflowerblue;
+	
+}
+
+#racetrack {
+	background: url('../img/road.jpg') center left repeat-x;
+	height: 300px;
+	border-right: dashed 10px white;
+	border-sizing: border-box;
+	margin: 40px 0;
+}
+
+.car{
+	display: block;
+	position: relative;
+}
+
+#car1 { top: 30px ;}
+#car2 {	top: 90px;}
+
+
+#raceInfoContainer {
+	text-align: center;
+	width: 80%;
+	margin: 50px auto 0;
+	background: #333;
+	height: 200px;
+}
+
+#raceInfoContainer h2 {
+	text-align: center;
+	color: white;
+	text-transform: uppercase;
+	border-bottom: solid 1px white;
+	padding: 20px 0 ;
+}
+
+.raceInfo {
+	font-size: 24px;
+	font-weight: bold;
+	color:white;
+	width: 50%;
+	float: left;
+}
+
+.raceInfo span {
+	display:block;
+	font-weight: normal;
+	font-size: 18px;
+	color: white;
+}
+
+#raceInfo1 {
+	color: chartreuse ;
+}
+
+#raceInfo2 {
+	color: darkred;
+}
+
+input[type="button"]{
+	text-align: center;
+	background: #77b72f;
+	color: white;
+	padding: 10px 20px;
+	border: solid 2px #444;
+}
+
+input#go{
+	background: #d36;
+	color: #233;
+}
+input#reset {
+	text-align: center;
+	background: #fc3;
+	color: #444;
+}
+
+.fix:after{
+	content: "";
+	display:table;
+	clear: both;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
